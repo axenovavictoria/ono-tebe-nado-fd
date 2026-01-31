@@ -3,37 +3,22 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    height: 293px;
+}
+
+.header_menu {
+    width: 391.48px; 
+    height: 22px;
 }
 
 .header_menu-list {
     display: flex;
-    gap: 12px;
     list-style: none;
     margin-top: 133px;
     margin-bottom: 133px;
     margin-left: 50px;
 }
 
-.header_menu-link {
-    color: #000000;
-    font-size: 18px;
-    font-weight: 400;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.3s;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
-}
-
-.header_menu-item_active .header_menu-noline {
-    text-decoration: none;
-}
-
-.list_marker {
-    margin-top: 9px;
-    width: 6px;
-    height: 6px;
-}
 
 .header_logo {
     display: block;
@@ -123,7 +108,7 @@
 
 .text-center {
     text-align: center;
-    margin: 20px 0;
+    margin: 21px 0;
 }
 
 .text-right {
@@ -267,7 +252,6 @@
     color: #000000;
     text-decoration: none;
     margin-left: 40px;
-    text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
 }
