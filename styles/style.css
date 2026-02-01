@@ -109,7 +109,7 @@
 .text-center {
     text-align: center;
     margin: 21px 0;
-    margin-left: 45px;
+    margin-left: 40px;
 }
 
 .text-right {
@@ -267,7 +267,7 @@
     display: grid;
     grid-template-columns: 430px 1fr;
     align-items: start;
-    margin-bottom: 120px;
+    margin-bottom: 140px;
 }
 
 .about_logo {
@@ -288,7 +288,7 @@
 }
 
 .column-text {
-    margin-left: -70px;
+    margin-left: -55px;
 }
 
 .about_title {
@@ -318,6 +318,7 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
+    padding: 0px 50px;
 }
 
 .footer_contacts {
