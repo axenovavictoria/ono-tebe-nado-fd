@@ -24,8 +24,8 @@
     display: block;
     margin-top: 92px;
     margin-bottom: 96px;
-    margin-right: 184px;
-    margin-left: 36.52px;
+    margin-right: 174px;
+    margin-left: 37px;
 }
 
 .header_logo-image {
@@ -165,7 +165,7 @@
     font-weight: 700;
     letter-spacing: 0%;
     margin-bottom: 27px;
-    margin-left: 40px;
+    margin-left: 41px;
 }
 
 .lots_card-list {
@@ -248,12 +248,13 @@
     padding: 0;
     font-family: 'Raleway';
     font-size: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
     font-weight: 400;
     color: #000000;
     text-decoration: none;
     margin-left: 40px;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
 }
 
 
@@ -264,7 +265,7 @@
     display: grid;
     grid-template-columns: 430px 1fr;
     align-items: start;
-    margin-bottom: 180px;
+    margin-bottom: 120px;
 }
 
 .about_logo {
@@ -285,7 +286,7 @@
 }
 
 .column-text {
-    margin-left: -55px;
+    margin-left: -65px;
 }
 
 .about_title {
@@ -299,7 +300,7 @@
 
 .about_text {
     font-size: 20px;
-    line-height: 1.35;
+    line-height: 24px;
     font-weight: 400;
     font-family: 'Raleway';
     margin: 0;
