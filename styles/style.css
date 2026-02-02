@@ -97,8 +97,6 @@
     line-height: 1.15;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
-    letter-spacing: 30%;
-
 }
 
 .accent-span {
@@ -114,7 +112,7 @@
 
 .text-right {
     text-align: right;
-    margin-left: 45px;
+    margin-right: -30px;
 }
 
 .cover_description {
@@ -134,6 +132,8 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
     font-family: 'Raleway';
+    line-height: 28px;
+    width: 637px;
 }
 
 .bet-button {
@@ -225,6 +225,7 @@
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .card_title {
@@ -233,10 +234,11 @@
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
     line-height: 1.2;
     color: rgba(255, 255, 255, 1);
+    width: 254px;
+    min-height: 82px; 
+    margin: 0; 
 }
 
 .card_text {
@@ -288,7 +290,7 @@
 }
 
 .column-text {
-    margin-left: -55px;
+    margin-left: -65px;
 }
 
 .about_title {
@@ -306,6 +308,7 @@
     font-weight: 400;
     font-family: 'Raleway';
     margin: 0;
+    max-width: 680px;
 }
 
 .about_text p {
@@ -390,3 +393,6 @@
     width: 48px;
     height: 48px;
 }
+
+
+
