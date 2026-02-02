@@ -6,19 +6,31 @@
     height: 293px;
 }
 
-.header_menu {
-    width: 391.48px; 
-    height: 22px;
-}
-
 .header_menu-list {
     display: flex;
+    gap: 32px;
     list-style: none;
-    margin-top: 133px;
-    margin-bottom: 133px;
+    padding: 0;
+    margin-top: 130px;
     margin-left: 50px;
 }
 
+.header_menu-link {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.header_menu-link:hover {
+    border-color: #000000;
+}
+
+.header_menu-item_active .header_menu-link {
+    border-bottom: 1px solid #000000;
+}
 
 .header_logo {
     display: block;
@@ -290,7 +302,7 @@
 }
 
 .column-text {
-    margin-left: -65px;
+    margin-left: -70px;
 }
 
 .about_title {
