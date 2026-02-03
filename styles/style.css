@@ -297,6 +297,7 @@
     width: 240px;
     display: flex;
     justify-content: center;
+    margin-left: 35px; 
 }
 
 .about_logo {
@@ -307,6 +308,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 47px;
 }
 
 .about_logo-image {
@@ -320,7 +322,7 @@
 }
 
 .about_title {
-    font-family: 'Raleway';
+    font-family: 'Raleway_Bold';
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
