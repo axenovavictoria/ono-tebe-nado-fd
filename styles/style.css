@@ -148,7 +148,6 @@
     position: absolute;
     top: 668px;
     left: 50px;
-    width: 637px;
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 22px;
@@ -297,7 +296,7 @@
     width: 240px;
     display: flex;
     justify-content: center;
-    margin-left: 30px; 
+    margin-left: 25px; 
 }
 
 .about_logo {
@@ -308,7 +307,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .about_logo-image {
