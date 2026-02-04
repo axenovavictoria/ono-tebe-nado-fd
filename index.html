@@ -13,13 +13,13 @@
     <header class="header content-section"> 
       <nav class="menu">
         <ul class="menu_list">
-          <li class="menu_item menu_item_no-marker">
+          <li class="menu_item menu_item_active menu_item_no-marker">
             <a class="menu_link">главная</a>
           </li>
-          <li class="menu_item menu_item_active">
+          <li class="menu_item">
             <a class="menu_link">посмотреть лоты</a>
           </li>
-          <li class="menu_item menu_item_active">
+          <li class="menu_item">
             <a class="menu_link">об аукционе</a>
           </li>
         </ul>
@@ -31,7 +31,7 @@
           alt="Логотип проекта"
         />  
       </a>
-      <nav class="header_contacts">
+      <address class="header_contacts">
         <ul class="header_contacts-list">
           <li class="header_contacts-item header_contacts-item_active">
             <a class="header_contacts-link" href="tel:+99995555555">+9 999 555 5555</a>
@@ -45,10 +45,11 @@
             >
           </li>
         </ul>
-      </nav>
+      </address>
     </header>
     <main class="content content-section">
       <section class="cover content-section">
+        <div class="overlay"></div>
         <h1 class="cover_title">
           <span class="cover_title-line cover_title-line_left">оно</span>
           <span class="cover_title-line cover_title-line_center">тебе</span>
@@ -63,34 +64,43 @@
         <h2 class="lots_heading">Лоты</h2>
         <ul class="lots_card-list">
             <li>
-              <article class="card card_type_film">
-                <div class="card_content">
-                    <h3 class="card_title">Фильм режиссёра, который бросил киношколу</h3>
-                    <div class="card_text">
-                        <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-                    </div>
-                </div>
-            </article>
+              <a class="card_lots" href="#">
+                <article class="card card_type_film">
+                  <div class="overlay"></div>
+                  <div class="card_content">
+                      <h3 class="card_title">Фильм режиссёра, который бросил киношколу</h3>
+                      <div class="card_text">
+                          <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                      </div>
+                  </div>
+                </article>
+              </a>
             </li>
             <li>
+              <a class="card_lots" href="#">
                 <article class="card card_type_book">
-                    <div class="card_content">
-                        <h3 class="card_title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-                        <div class="card_text">
-                            <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-                        </div>
-                    </div>
+                  <div class="overlay"></div>
+                  <div class="card_content">
+                      <h3 class="card_title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                      <div class="card_text">
+                          <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                      </div>
+                  </div>
                 </article>
+              </a>
             </li>
             <li>
+              <a class="card_lots" href="#">
                 <article class="card card_type_picture">
-                    <div class="card_content">
-                        <h3 class="card_title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                        <div class="card_text">
-                            <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-                        </div>
-                    </div>
+                  <div class="overlay"></div>
+                  <div class="card_content">
+                      <h3 class="card_title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                      <div class="card_text">
+                          <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                      </div>
+                  </div>
                 </article>
+              </a>
             </li>
         </ul>
         <a href="#" class="lots_look-more-link">посмотреть больше</a>
@@ -116,7 +126,7 @@
       </section>
     </main>
     <footer class="footer content-section">
-      <nav class="footer_contacts">
+      <address class="footer_contacts">
         <ul class="footer_contacts-list">
           <li class="footer_contacts-item footer_contacts-item_active">
             <a class="footer_contacts-link" href="tel:+99995555555">+9 999 555 5555</a>
@@ -130,7 +140,7 @@
             >
           </li>
         </ul>
-      </nav>
+      </address>
       <nav class="footer_menu">
         <ul class="footer_menu-list">
           <li class="footer_menu-item footer_menu-item_active">
