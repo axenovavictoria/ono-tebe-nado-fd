@@ -142,6 +142,7 @@
 
 .cover_title-line_center {
     align-self: center;
+    margin-left: -0.3em; 
 }
 
 .cover_title-line_right {
@@ -287,7 +288,7 @@
 .about {
     width: 1052px;
     margin: 120px auto 0;
-    padding: 0 24px;
+    padding: 0 0 0 24px;
     display: flex;
     gap: 72px;
 }
@@ -297,7 +298,7 @@
     width: 240px;
     display: flex;
     justify-content: center;
-    margin-left: 25px; 
+    margin-left: 20px; 
 }
 
 .about_logo {
