@@ -129,7 +129,7 @@
     letter-spacing: 0.3em;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .cover_title-line {
@@ -142,11 +142,12 @@
 
 .cover_title-line_center {
     align-self: center;
-    padding-left: 30px;
 }
 
 .cover_title-line_right {
     align-self: flex-end;
+    margin-right: -0.3em; 
+    text-align: right; 
 }
 
 .cover_description {
@@ -162,10 +163,10 @@
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
-    word-spacing: 0.4em;
+    word-spacing: 0.9em;
     letter-spacing: normal;
     color: #FFFFFF;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .cover_button {
