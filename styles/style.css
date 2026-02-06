@@ -360,6 +360,7 @@
     font-size: 18px;
     line-height: 24.3px;
     align-items: flex-start;
+    min-height: 180px;
 }
 
 .footer_contacts {
@@ -370,6 +371,9 @@
 
 .footer_menu {
     text-align: center;
+    width: 163.9px;
+    padding: 0 0 0 15.79px;
+    margin-top: -5px;
 }
 
 .footer_menu-list {
