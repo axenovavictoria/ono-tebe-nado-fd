@@ -358,9 +358,8 @@
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    line-height: 24.3px;
     align-items: flex-start;
-    min-height: 180px;
+    min-height: 175px;
 }
 
 .footer_contacts {
@@ -372,7 +371,7 @@
 .footer_menu {
     text-align: center;
     width: 163.9px;
-    padding: 0 15.79px 0 0;
+    padding: 0 15px 0 0;
     margin-top: -3px;
 }
 
