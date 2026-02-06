@@ -372,8 +372,8 @@
 .footer_menu {
     text-align: center;
     width: 163.9px;
-    padding: 0 0 0 15.79px;
-    margin-top: -5px;
+    padding: 0 15.79px 0 0;
+    margin-top: -3px;
 }
 
 .footer_menu-list {
